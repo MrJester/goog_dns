@@ -115,8 +115,8 @@ class GoogleDNS(object):
 
         # Build out the API URL
         api_url = 'https://%s?hostname=%s&myip=%s' % (self._goog_api_url,
-                                                            self._url,
-                                                            self._ext_ip)
+                                                      self._url,
+                                                      self._ext_ip)
 
         user_agent = self._useragent
 
