@@ -12,7 +12,7 @@ setup(
     author_email=goog_dns.__author_email__,
     license='gpl-3.0.txt',
     url='https://github.com/MrJester/goog_dns',
-    download_url='https://github.com/MrJester/goog_dns/archive/0.0.1.tar.gz',
+    download_url='https://github.com/MrJester/goog_dns/archive/0.0.2.tar.gz',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 2",
