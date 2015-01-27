@@ -147,7 +147,7 @@ class GoogleDNS(object):
             print '[!] ERROR Dynamic DNS access is blocked contact Google ' \
                   'and/or developer'
         if answer[0] == '911':
-            print '[!] ERROR on server end wait 5 minutes for next request'
+            print '[!] ERROR on server side wait 5 minutes for next request'
 
 
 def build_parser():
