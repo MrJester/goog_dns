@@ -94,7 +94,6 @@ class GoogleDNS(object):
         try:
             response = urllib2.urlopen('http://myexternalip.com/json')
             data = json.load(response)
-            print '[+] External IP: %s' % data['ip']
             return data['ip']
         except urllib2.URLError:
             print '[!] ERROR Could not get external IP'
@@ -188,5 +187,7 @@ if __name__ == "__main__":
     googdns.url, googdns.username, googdns.password = build_parser()
 
     googdns.ext_ip = GoogleDNS.get_ext_ip()
+    if googdns.ext_ip:
+        print '[+] External IP: %s' % googdns.ext_ip
 
     googdns.set_goog_dns()
