@@ -5,7 +5,7 @@ from goog_dns import *
 
 setup(
     name='goog_dns',
-    version=googdns.__version__,
+    version=goog_dns.__version__,
     description='Python program to update Google Dynamic DNS. Useful for '
                 'cronjob or some other automated mechanism.',
     author=goog_dns.__author__,
