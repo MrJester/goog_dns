@@ -3,14 +3,14 @@ from distutils.core import setup
 
 setup(
     name='goog_dns',
-    version='0.0.3',
+    version='0.0.4',
     description='Python program to update Google Dynamic DNS. Useful for '
                 'cronjob or some other automated mechanism.',
     author='Ryan Hays',
     author_email='ryan@blackbagsecurity.net',
     license='gpl-3.0.txt',
     url='https://github.com/MrJester/goog_dns',
-    download_url='https://github.com/MrJester/goog_dns/archive/0.0.3.tar.gz',
+    download_url='https://github.com/MrJester/goog_dns/archive/0.0.4.tar.gz',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 2",
