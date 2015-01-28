@@ -17,7 +17,6 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 2.7.9",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "Intended Audience :: System Administrators",
