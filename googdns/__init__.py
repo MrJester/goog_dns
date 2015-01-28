@@ -21,8 +21,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-from .goog_dns import *
-from .goog_dns import __author__
-from .goog_dns import __author_email__
-from .goog_dns import __version__
+from .googdns import *
+from .googdns import __author__
+from .googdns import __author_email__
+from .googdns import __version__
 from .googdns import __last_modification__
