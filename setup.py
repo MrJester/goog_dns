@@ -24,7 +24,6 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Internet :: Name Service (DNS)",
         "Topic :: System :: Networking",
-        "Topic :: System :: System Administration",
         "Topic :: Utilities"
     ],
     )
