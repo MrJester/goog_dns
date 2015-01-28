@@ -1,18 +1,16 @@
 from distutils.core import setup
 
-from googdns import *
-
 
 setup(
     name='goog_dns',
-    version=googdns.__version__,
+    version='0.0.3',
     description='Python program to update Google Dynamic DNS. Useful for '
                 'cronjob or some other automated mechanism.',
-    author=googdns.__author__,
-    author_email=googdns.__author_email__,
+    author='Ryan Hays',
+    author_email='ryan@blackbagsecurity.net',
     license='gpl-3.0.txt',
     url='https://github.com/MrJester/goog_dns',
-    download_url='https://github.com/MrJester/goog_dns/archive/0.0.2.tar.gz',
+    download_url='https://github.com/MrJester/goog_dns/archive/0.0.3.tar.gz',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 2",
