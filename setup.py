@@ -1,5 +1,5 @@
 from distutils.core import setup
-from googdns import __author__, __author_email__, __version__
+from googdns.googdns import __author__, __author_email__, __version__
 
 
 setup(

@@ -28,6 +28,7 @@ __author_email__ = 'ryan@blackbagsecurity.net'
 __version__ = '0.0.5'
 __last_modification__ = '2015.02.06'
 
+import sys
 import argparse
 import urllib2
 import json
