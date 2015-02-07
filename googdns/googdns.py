@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 __author__ = 'Ryan Hays'
 __author_email__ = 'ryan@blackbagsecurity.net'
 __version__ = '0.0.5'
-__last_modification__ = '2015.01.26'
+__last_modification__ = '2015.02.06'
 
 import argparse
 import urllib2
