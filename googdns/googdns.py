@@ -92,9 +92,10 @@ class GoogleDNS(object):
     def get_ext_ip():
         # Using myexternalip.com to collect and report IP
         try:
-            response = urllib2.urlopen('http://myexternalip.com/json')
-            data = json.load(response)
-            return data['ip']
+            req = urllib2.Request('http://myexternalip.com/raw')
+            response = urllib2.urlopen(req)
+            data = response.read()
+            return data.rstrip('/n')
         except urllib2.URLError:
             print '[!] ERROR Could not get external IP'
             sys.exit(1)
