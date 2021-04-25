@@ -27,7 +27,7 @@ __author__ = 'Ryan Hays'
 __author_email__ = 'hays.ryan@gmail.com'
 __author_twitter__ = '@_ryanhays'
 __version__ = '0.0.7'
-__last_modification__ = '2015.02.06'
+__last_modification__ = '2021.04.25'
 
 import sys
 import argparse
