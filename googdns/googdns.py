@@ -24,7 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 __author__ = 'Ryan Hays'
-__author_email__ = 'ryan@blackbagsecurity.net'
+__author_email__ = 'hays.ryan@gmail.com'
+__author_twitter__ = '@_ryanhays'
 __version__ = '0.0.6'
 __last_modification__ = '2015.02.06'
 
